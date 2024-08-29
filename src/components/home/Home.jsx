@@ -48,7 +48,7 @@ function Home() {
           </div>
 
           <p className="home__text">
-           This is me, I am from Karnataka. I am a keen Literary enthusisast, a public speaker
+           This is me, I am from Karnataka. I am a keen literary enthusisast, a public speaker
            and a designer. I have an eye for details.
           </p>
 
