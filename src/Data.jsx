@@ -132,7 +132,7 @@ export const projects = [
     category: 'UI UX Design',
     title: 'Musica',
     description:
-      '',
+      'A music streaming website designed for better user experience.',
     link: 'https://www.figma.com/proto/blKDvLIwQh8alTh0b7jbZf/MUSICA?node-id=8-34&t=g2qNyl4xWAGwm8It-1&scaling=min-zoom&content-scaling=fixed&page-id=8%3A33',
   },
   {
@@ -159,7 +159,7 @@ export const projects = [
     category: 'UI UX Design',
     title: 'Blakeys',
     description:
-      '',
+      'A food website with carousel feature.',
     link: 'https://www.figma.com/proto/y80DVAMpNOlBYAJ7z6vd3R/Blakeys?node-id=2-22&node-type=CANVAS&t=HlQRWWBW8r9bBzoe-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A22',
   },
   {
@@ -168,7 +168,7 @@ export const projects = [
     category: 'UI UX Design',
     title: 'Wallet',
     description:
-      '',
+      'A mobile baanking app with easy navigation and better UX features',
     link: 'https://www.figma.com/proto/2LIAHzOD14xUM4ZzoffPYU/Banking-App?node-id=1-728&node-type=CANVAS&t=kMfI4XRgIVbmCOOa-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2',
   },
 ];
