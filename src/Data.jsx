@@ -9,6 +9,15 @@ import Testimonial1 from './assets/vl.png';
 import Testimonial2 from './assets/vpb.png';
 import Testimonial3 from './assets/vpm.png';
 
+import s1 from './assets/java.png';
+import s2 from './assets/js.png';
+import s3 from './assets/c.png';
+import s4 from './assets/figma.png';
+import s5 from './assets/react.png';
+import s6 from './assets/canva.jpg';
+
+
+
 
 export const links = [
   {
@@ -70,7 +79,7 @@ export const skills = [
   {
     id: 1,
     name: 'Java',
-    percentage: 85,
+    logo: s1,
     description:
       '',
   },
@@ -78,7 +87,7 @@ export const skills = [
   {
     id: 2,
     name: 'JavaScript',
-    percentage: 65,
+    logo:s2,
     description:
       '',
   },
@@ -86,7 +95,7 @@ export const skills = [
   {
     id: 3,
     name: 'C',
-    percentage: 90,
+     logo: s3,
     description:
       '',
   },
@@ -94,7 +103,7 @@ export const skills = [
   {
     id: 4,
     name: 'Figma',
-    percentage: 95,
+    logo: s4,
     description:
       '',
   },
@@ -102,7 +111,7 @@ export const skills = [
   {
     id: 5,
     name: 'React',
-    percentage: 70,
+    logo: s5,
     description:
       '',
   },
@@ -110,10 +119,12 @@ export const skills = [
   {
     id: 6,
     name: 'Canva',
-    percentage: 80,
+     logo: s6,
     description:
       '',
   },
+
+  
 ];
 
 export const projects = [

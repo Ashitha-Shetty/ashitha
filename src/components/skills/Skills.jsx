@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import "./skills.css";
 import { skills } from "../../Data";
 import shapeOne from "../../assets/shape-1.png";
@@ -12,25 +11,17 @@ function Skills() {
       </p>
 
       <div className="skills__container container grid">
-        {skills.map(({ name, percentage, description }, index) => {
+        {skills.map(({ name, logo, description }, index) => {
           return (
             <div className="skills__item" key={index}>
               <div className="skills__titles">
                 <h3 className="skills__name">{name}</h3>
-                <span className="skills__number">
-                  {percentage} <span>%</span>
-                </span>
+                {/* Display logo instead of percentage */}
+                <img src={logo} alt={`${name} logo`} className="skills__logo" />
+
               </div>
 
               <p className="skills__description">{description}</p>
-              <div className="skills__bar">
-                <span
-                  className="skills__percentage"
-                  style={{ width: `${percentage}%` }}
-                >
-                  <span></span>
-                </span>
-              </div>
             </div>
           );
         })}
@@ -40,9 +31,7 @@ function Skills() {
         <img src={shapeOne} alt="" className="shape" />
       </div>
 
-      <div className="section__bg-wrapper">
-        <span className="bg__ttile">Skills</span>
-      </div>
+      
     </section>
   );
 }
